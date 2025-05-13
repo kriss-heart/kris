@@ -47,7 +47,7 @@
             height: 50px;
             }
             #hero-section {
-            display: left;
+            display: flex;
             padding-inline: 15%;
             padding-top: 100px;
             align-items: center;
@@ -68,13 +68,19 @@
             #hero-section a {
             padding-inline: 20px;
         }
-        /* @media only screen and (max-width:600px){
-            font-size: 16px;
-        } */
-        #hero-section h1{
-            font-size: 30px;
-
+        @media only screen and (max-width:600px){
+             #hero-section{
+                display: block;
+                padding-block: 20PX;
+             }
+             nav ul{
+                display: none;
+             }
+              #hero-section H1{
+                font-size: 30PX;
+              }
         }
+
         </style>
     </head>
     <body>
